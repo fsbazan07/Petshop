@@ -319,98 +319,98 @@ footer {
 }
 /*Desktop*/
 @media (min-width: 769px) {
-    .menu-responsive {
-    display: none;
+  .menu-responsive {
+  display: none;
 }
 }
 /*Tablets*/
 @media (max-width: 768px) {
-    .barraSuperior{
-        display: none;
-    }
-    .nav {
-        display: none;
-    }
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-right: 2rem;
-    }
-    .card-container {
-        display: flex;
-        flex-direction: row;
-        flex-flow: row wrap;
-        text-align: center;
-        margin: auto;
-        justify-content: center;
-        align-content: space-between;
-        padding: auto;
-    }
-    .suscribe {
-        display: flex;
-        background-color: #f0a83e;
-        color: #ffffff;
-        width: 100%;
-        height: 5rem;
-        flex-direction: column;
-        margin-top: 4rem;
-        justify-content: space-between;
-        padding-bottom: 2rem;
-    }
-        .contacto {
-            display: flex;
-            background-color: #5c2a0c;
-            color: #ffffff;
-            flex-direction: column-reverse;
-            justify-content: space-between;
-            align-items: center;
-            padding: 2rem 3rem;
-        }
+  .barraSuperior{
+      display: none;
+  }
+  .nav {
+      display: none;
+  }
+  .banner-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 2rem;
+  }
+  .card-container {
+      display: flex;
+      flex-direction: row;
+      flex-flow: row wrap;
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      align-content: space-between;
+      padding: auto;
+  }
+  .suscribe {
+      display: flex;
+      background-color: #f0a83e;
+      color: #ffffff;
+      width: 100%;
+      height: 5rem;
+      flex-direction: column;
+      margin-top: 4rem;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+  }
+      .contacto {
+          display: flex;
+          background-color: #5c2a0c;
+          color: #ffffff;
+          flex-direction: column-reverse;
+          justify-content: space-between;
+          align-items: center;
+          padding: 2rem 3rem;
+      }
 }
 /*Celus*/
 @media (max-width: 460px) {
-    .barraSuperior{
-        display: none;
-    }
-    .nav {
-        display: none;
-    }
-    .banner-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-    }
-      .card-container {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: auto;
-        justify-content: center;
-        align-content: space-between;
-        padding: auto;
-    }
-    .suscribe {
-        display: flex;
-        background-color: #f0a83e;
-        color: #ffffff;
-        width: 100%;
-        height: 5rem;
-        flex-direction: column;
-        margin-top: 4rem;
-        justify-content: space-between;
-        padding-bottom: 2rem;
-    }
-    .contacto {
-        display: flex;
-        background-color: #5c2a0c;
-        color: #ffffff;
-        flex-direction: column-reverse;
-        justify-content: space-between;
-        align-items: center;
-        padding: 2rem 3rem;
-    }
+  .barraSuperior{
+      display: none;
+  }
+  .nav {
+      display: none;
+  }
+  .banner-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      padding-right: 0rem;
+  }
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin: auto;
+      justify-content: center;
+      align-content: space-between;
+      padding: auto;
+  }
+  .suscribe {
+      display: flex;
+      background-color: #f0a83e;
+      color: #ffffff;
+      width: 100%;
+      height: 5rem;
+      flex-direction: column;
+      margin-top: 4rem;
+      justify-content: space-between;
+      padding-bottom: 2rem;
+  }
+  .contacto {
+      display: flex;
+      background-color: #5c2a0c;
+      color: #ffffff;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem 3rem;
+  }
 }
